@@ -109,7 +109,8 @@ public class Fourth {
         }
     }
 
-    //Just a functional interface to save a bit of typing work
+    //Just to save a bit of typing work
+    @FunctionalInterface
     public interface PassportFieldValidator {
         boolean validate(Passport passport);
     }
